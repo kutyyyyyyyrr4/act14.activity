@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:50px;
+}
+
+body {
+    border: 10px double #ffff;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background: linear-gradient(89deg, black 38%, purple 67%,);
+    background-size: cover;
+    background-image: url(https://wp-media.patheos.com/blogs/sites/1302/2020/04/1F912F12-1323-46B3-A559-6029049C7C6F.png);
+    transform:none;
+}
+
+#clock {
+    height:120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: white;
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+  color: white;
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+    background-color:lightgreen;
+    margin-top:10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(78deg, gray 20%, purple 52%);
+}
+#setButton:before:hover{
+    background: linear-gradient(78deg, gray 48%, purple 52%);
+}
+
+#setButton:after:hover{
+    background: linear-gradient(78deg, purple 48%, gray 52%);
+}
+
+#setButton:hover{
+    background: linear-gradient(78deg, purple 20%, gray 52%);
+}
+
+
+#clearButton {
+    float:right;
+    background-color:red;
+    margin-top:10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(78deg, gray 20%, purple 52%);
+}
+
+#clearButton:before:hover{
+    background: linear-gradient(78deg, gray 48%, purple 52%);
+}
+
+#clearButton:after:hover{
+    background: linear-gradient(78deg, purple 48%, gray 52%);
+}
+
+#clearButton:hover{
+    background: linear-gradient(78deg, purple 20%, gray 52%);
+}
+
